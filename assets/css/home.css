@@ -142,6 +142,7 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 65px;
+    margin-bottom: 120px;
 }
 
 .feed-item {
@@ -159,10 +160,52 @@ html {
 
 .feed-item-name {
     grid-row-start: 2;
-    height: fit-content;
 }
 
 .feed-item-sub {
     grid-row-start: 3;
-    height: fit-content;
+}
+
+
+#footer {}
+
+#footer .logo-item {
+    border-width: 0px 0px;
+    grid-column-start: 1;
+    grid-column-end: 24;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 48px 0px;
+
+}
+
+#footer .logo-item img {
+    height: 80%;
+}
+
+.footer-item {
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+.footer-form {
+    grid-column-start: 13;
+    grid-column-end: 22;
+}
+
+.footer-item-sub {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 40px;
+}
+
+.footer-item-heading {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
 }

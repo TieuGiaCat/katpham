@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Epilogue', sans-serif;
+    color: #2D2D2D;
+}
+
+#main {
+    max-width: 80vw;
+    margin-inline: auto;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 50px 30px;
+    
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#nav-menu {
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav li {
+    display: flex;
+    padding-left: 48px;
+}
+
+#nav li a {
+    color: #2D2D2D;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+}

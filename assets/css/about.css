@@ -1,14 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-family: 'Epilogue', sans-serif;
-    color: #2D2D2D;
-}
-
 .about-menu {
     color: #FA8F21;
 }

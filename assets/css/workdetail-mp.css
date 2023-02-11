@@ -1,0 +1,147 @@
+.detail-heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    padding: 40px 0px 16px;
+}
+
+.belive-sub-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-sub-heading {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.detail-img {
+    width: 100%;
+}
+
+.detail-letter {
+    grid-column-start: 5;
+    grid-column-end: 19;
+    padding: 120px 0px 100px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.detail-item {
+    padding: 96px 0px;
+}
+
+.detail-item-box {
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+.detail-item-heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px;
+    padding-bottom: 36px;
+}
+
+.detail-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.detail-item-img {
+    grid-column-start: 12;
+    grid-column-end: 21;
+    width: 100%;
+}
+
+.belive-box01 {
+    place-items: center;
+}
+
+.belive-box01-img01 {
+    grid-column-start: 3;
+    grid-column-end: 9;
+    padding-bottom: 24px;
+}
+
+.belive-box01-img02 {
+    grid-column-start: 11;
+    grid-column-end: 16;
+}
+
+.belive-box01-text {
+    grid-column-start: 17;
+    grid-column-end: 22;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.belive-box02 {
+    padding: 96px 0px;
+}
+
+.belive-box02-text {
+    grid-column-start: 3;
+    grid-column-end: 13;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.belive-box02-img {
+    grid-column-start: 3;
+    grid-column-end: 22;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .detail-letter {
+        padding: 120px 30px;
+    }
+
+    .detail-item-box {
+        grid-column-start: none;
+        grid-column-end: none;
+        padding: 0px 30px;
+    }
+
+    .detail-item-img {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .belive-box01-img01 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .belive-box01-img02 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .belive-box01-text {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .belive-box02-text {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .belive-box02-img {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+}

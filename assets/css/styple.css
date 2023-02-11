@@ -7,6 +7,7 @@
 html {
     font-family: 'Epilogue', sans-serif;
     color: #2D2D2D;
+    font-weight: 600;
 }
 
 #main {
@@ -14,11 +15,11 @@ html {
     margin-inline: auto;
 }
 
-#header{
+#header {
     display: flex;
     justify-content: space-between;
     padding: 48px 50px 30px;
-    
+
 }
 
 .logo {
@@ -27,8 +28,7 @@ html {
     line-height: 30px;
 }
 
-#nav-menu {
-}
+#nav-menu {}
 
 #nav {
     display: flex;

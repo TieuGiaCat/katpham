@@ -33,12 +33,14 @@ img {
 
 .intro-text-des {
     font-size: 20px;
+    font-weight: 600;
     line-height: 30px;
     padding-bottom: 40px;
 }
 
 .intro-text-heading {
     font-size: 64px;
+    font-weight: 600;
     line-height: 90px;
     padding-bottom: 40px;
 }

@@ -1,0 +1,49 @@
+.worklife {
+    padding: 24px 0px;
+}
+
+.wlb-heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.wlb-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.wlb-box01-img01 {
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+.wlb-box01-img02 {
+    grid-column-start: 11;
+    grid-column-end: 22;
+}
+
+.wlb-box02-img01 {
+    grid-column-start: 3;
+    grid-column-end: 15;
+}
+
+.wlb-box02-img02 {
+    grid-column-start: 17;
+    grid-column-end: 22;
+    padding-top: 25px;
+}
+
+.wlb-box-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-img {
+    padding: 24px 0px 100px;
+}

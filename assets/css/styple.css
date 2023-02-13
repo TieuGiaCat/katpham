@@ -16,6 +16,9 @@ html {
 }
 
 #header {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
     display: flex;
     justify-content: space-between;
     padding: 48px 50px 30px;
@@ -26,6 +29,8 @@ html {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+    color: #2D2D2D;
+    text-decoration: none;
 }
 
 #nav-menu {}

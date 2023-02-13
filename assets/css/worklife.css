@@ -2,6 +2,14 @@
     padding: 24px 0px;
 }
 
+.wlb-box02 img {
+    min-height: 100%;
+}
+
+.wlb-box01 img {
+    min-height: 100%;
+}
+
 .wlb-heading {
     font-weight: 600;
     font-size: 32px;
@@ -17,6 +25,10 @@
     text-align: center;
 }
 
+.wlb-box01 {
+    padding: 94px 0px;
+}
+
 .wlb-box01-img01 {
     grid-column-start: 3;
     grid-column-end: 9;
@@ -27,6 +39,10 @@
     grid-column-end: 22;
 }
 
+.wlb-box02 {
+    padding: 94px 0px;
+}
+
 .wlb-box02-img01 {
     grid-column-start: 3;
     grid-column-end: 15;
@@ -35,15 +51,41 @@
 .wlb-box02-img02 {
     grid-column-start: 17;
     grid-column-end: 22;
-    padding-top: 25px;
 }
 
 .wlb-box-text {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
+    padding-top: 24px;
 }
 
 .about-img {
     padding: 24px 0px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wlb-box02-img01 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .wlb-box02-img02 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .wlb-box01-img01 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .wlb-box01-img02 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .worklife {
+        padding: 24px 30px;
+    }
 }

@@ -1,4 +1,4 @@
-GD.detail-heading {
+.detail-heading {
     font-weight: 600;
     font-size: 32px;
     line-height: 42px;
@@ -113,38 +113,6 @@ GD.detail-heading {
     gap: 16px;
 }
 
-/* .GDPB-box-img {
-    grid-column-start: 3;
-    grid-column-end: 15;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-}
-
-.GDPB-box01 {
-    grid-column-start: 1;
-    grid-column-end: 8;
-}
-
-.GDPB-box02 {
-    grid-column-start: 8;
-    grid-column-end: 12;
-}
-
-.GDPB-box03 {
-    grid-column-start: 15;
-    grid-column-end: 22;
-}
-
-.GDPB-box01 {
-    grid-column-start: 1;
-    grid-column-end: 6;
-
-}
-
-.GDPB-box02 {
-    grid-column-start: 6;
-    grid-column-end: 12;
-} */
 
 
 @media only screen and (max-width: 600px) {

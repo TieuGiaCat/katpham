@@ -27,6 +27,11 @@
     line-height: 30px;
 }
 
+#worklist a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
 @media only screen and (max-width: 600px) {
     .work-item {
         grid-template-columns: 1fr;

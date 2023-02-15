@@ -32,6 +32,25 @@
                 <li><a href="./worklife-balance.html">Work-life balance</a></li>
             </ul>
         </div>
+        <div id="mySide" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="./assets/img/home/x-icon.png"
+                    alt=""></a>
+            <a class="submenu" href="./about.html">About</a>
+            <a class="submenu" href="./worklist.html">My Journey</a>
+            <a class="submenu" href="./worklife-balance.html">Work-life balance</a>
+        </div>
+        <div class="icon-menu">
+            <img src="./assets/img/home/icon-menu.png" alt="" style="cursor:pointer" onclick="openNav()">
+            <script>
+                function openNav() {
+                    document.getElementById("mySide").style.width = "300px";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySide").style.width = "0";
+                }
+            </script>
+        </div>
     </div>
     <!-- End menu -->
 

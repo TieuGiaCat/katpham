@@ -22,7 +22,6 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 48px 50px 30px;
-
 }
 
 .logo {
@@ -36,10 +35,12 @@ html {
 .logo a {
     text-decoration: none;
     color: #2D2D2D;
-    color: #2D2D2D;
 }
 
-#nav-menu {}
+
+#icon-menu {
+    display: none;
+}
 
 #nav {
     display: flex;
@@ -57,4 +58,84 @@ html {
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
+}
+
+#nav li a:hover {
+    color: #FA8F21;
+}
+
+#mySide {
+    display: none;
+}
+
+.icon-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #header {
+        padding: 48px 25px 30px;
+        place-items: center;
+    }
+
+    #icon-menu {}
+
+    #mySide {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #ffffff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .submenu {
+        padding: 64px 50px 0px 0px;
+    }
+
+    .sidenav a {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #2D2D2D;
+        display: block;
+        transition: 0.3s;
+        text-align: right;
+    }
+
+    .sidenav a:hover {
+        color: #FA8F21;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        padding: 50px 50px 0px 0px;
+        right: 0%;
+        top: 0%;
+    }
+
+    .sidenav .closebtn img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon-menu {
+        display: block;
+    }
+
+    .icon-menu img {
+        width: 30px;
+        height: 30px;
+    }
 }

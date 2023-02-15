@@ -71,9 +71,17 @@
     padding-bottom: 24px;
 }
 
+.belive-box01-img01 img {
+    min-width: 100%;
+}
+
 .belive-box01-img02 {
     grid-column-start: 11;
     grid-column-end: 16;
+}
+
+.belive-box01-img02 img {
+    min-width: 100%;
 }
 
 .belive-box01-text {
@@ -109,8 +117,47 @@
     padding: 96px 0px;
 }
 
-.GDPB-box {
+.GDPB-box-img {
+    grid-column-start: 3;
+    grid-column-end: 22;
+    padding: 96px 0px;
+    display: grid;
+    grid-template-areas:
+        "a a b c c "
+        "e d d c c";
+    grid-template-rows: 260px 324px;
     gap: 16px;
+}
+
+.GDPB-box {
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+}
+
+.GDPB-box img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.GDPB-box01 {
+    grid-area: a;
+}
+
+.GDPB-box02 {
+    grid-area: b;
+}
+
+.GDPB-box03 {
+    grid-area: c;
+}
+
+.GDPB-box04 {
+    grid-area: e;
+}
+
+.GDPB-box05 {
+    grid-area: d;
 }
 
 

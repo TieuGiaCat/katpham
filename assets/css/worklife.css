@@ -29,6 +29,11 @@
     padding: 94px 0px;
 }
 
+.wlb-box01 a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
 .wlb-box01-img01 {
     grid-column-start: 3;
     grid-column-end: 9;
@@ -88,6 +93,8 @@
     grid-column-end: 22;
     padding: 96px 0px;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .wlb-box02-img01 {

@@ -190,6 +190,30 @@
     grid-area: d;
 }
 
+.GGB-img {
+    padding: 96px 0px;
+}
+
+.gigabeat-img {
+    gap: 24px;
+    padding: 96px 0px;
+}
+
+.gigabeat-01 {
+    grid-column-start: 3;
+    grid-column-end: 10;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    width: 100%;
+}
+
+.gigabeat-02 {
+    grid-column-start: 10;
+    grid-column-end: 22;
+    display: flex;
+    place-items: center;
+}
 
 
 @media only screen and (max-width: 600px) {

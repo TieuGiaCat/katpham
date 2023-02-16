@@ -260,4 +260,18 @@
         grid-column-end: none;
         width: 100%;
     }
+
+    .gigabeat-img {
+        gap: 0px;
+    }
+
+    .gigabeat-01 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
+
+    .gigabeat-02 {
+        grid-column-start: none;
+        grid-column-end: none;
+    }
 }

@@ -6,6 +6,18 @@
     padding: 40px 0px 16px;
 }
 
+.cs-sub-text {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    margin-inline: auto;
+    text-decoration: none;
+}
+
+.cs-sub-img {
+    padding: 0px 0px 20px 10px;
+}
+
 .belive-sub-text {
     display: flex;
     flex-direction: column;
@@ -17,6 +29,7 @@
     line-height: 42px;
     text-align: center;
     padding-bottom: 16px;
+    color: #2d2d2d;
 }
 
 .detail-img {
@@ -42,6 +55,11 @@
     grid-column-end: 9;
 }
 
+.detail-item-box-r {
+    grid-column-start: 16;
+    grid-column-end: 22;
+}
+
 .detail-item-heading {
     font-weight: 600;
     font-size: 36px;
@@ -59,6 +77,18 @@
     grid-column-start: 12;
     grid-column-end: 21;
     width: 100%;
+}
+
+.detail-item-img-r {
+    grid-column-start: 3;
+    grid-column-end: 14;
+    width: 100%;
+}
+
+.detail-item-card {
+    grid-column-start: 3;
+    grid-column-end: 22;
+    padding: 96px 0px;
 }
 
 .belive-box01 {

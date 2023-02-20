@@ -122,6 +122,19 @@
     line-height: 26px;
 }
 
+.belive-box01-heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+
+.belive-box01-subtext {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
 .belive-box02 {
     padding: 96px 0px;
 }

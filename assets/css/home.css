@@ -307,6 +307,10 @@ img {
         margin-inline: auto;
     }
 
+    #logo {
+        grid-template-columns: none;
+    }
+
     .logo-item {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 48px;
@@ -347,11 +351,12 @@ img {
     }
 
     #footer .logo-item {
-        place-items: start;
+        place-items: center;
     }
 
     #footer .logo-item img {
-        height: 60%;
+        height: auto;
+        max-height: 40px;
     }
 
 }

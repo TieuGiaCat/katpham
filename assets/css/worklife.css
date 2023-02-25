@@ -27,6 +27,7 @@
 
 .wlb-box01 {
     padding: 94px 0px;
+    grid-template-rows: 1fr;
 }
 
 .wlb-box01 a {
@@ -92,6 +93,16 @@
     grid-column-start: 3;
     grid-column-end: 22;
     padding: 96px 0px;
+}
+
+.collage-box1 {
+    grid-column-start: 3;
+    grid-column-end: 12;
+}
+
+.collage-box2 {
+    grid-column-start: 13;
+    grid-column-end: 22;
 }
 
 

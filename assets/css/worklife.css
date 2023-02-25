@@ -59,6 +59,11 @@
     grid-column-end: 22;
 }
 
+.wlb-box02 a {
+    text-decoration: none;
+    color: #2d2d2d;
+}
+
 .wlb-box-text {
     font-weight: 600;
     font-size: 20px;

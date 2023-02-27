@@ -279,6 +279,7 @@ img {
     #intro {
         display: flex;
         flex-direction: column;
+        padding: 50px;
     }
 
     #intro-text {

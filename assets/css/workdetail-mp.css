@@ -261,6 +261,7 @@
     .belive-box01-text {
         grid-column-start: none;
         grid-column-end: none;
+        padding: 30px;
     }
 
     .belive-box02-text {

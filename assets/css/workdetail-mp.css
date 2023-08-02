@@ -36,6 +36,10 @@
     width: 100%;
 }
 
+.detail-img>img {
+    width: 100%;
+}
+
 .detail-letter {
     grid-column-start: 5;
     grid-column-end: 19;
@@ -151,6 +155,10 @@
 .belive-box02-img {
     grid-column-start: 3;
     grid-column-end: 22;
+    width: 100%;
+}
+
+.belive-box02-img>img {
     width: 100%;
 }
 

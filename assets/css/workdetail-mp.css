@@ -141,6 +141,8 @@
 
 .belive-box02 {
     padding: 96px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .belive-box02-text {

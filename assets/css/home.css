@@ -198,14 +198,14 @@ img {
     grid-column-start: 1;
     grid-column-end: 24;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 48px 0px;
     place-items: center;
 
 }
 
 #footer .logo-item img {
-    height: 80%;
+    height: 100%;
 }
 
 .footer-item {
